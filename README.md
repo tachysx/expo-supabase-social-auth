@@ -62,7 +62,7 @@ sequenceDiagram
 **Claude Code:** install it once as a personal skill, then ask for it in any project.
 
 ```bash
-git clone https://github.com/zemang86/expo-supabase-social-auth ~/.claude/skills/expo-supabase-social-auth
+git clone https://github.com/tachysx/expo-supabase-social-auth ~/.claude/skills/expo-supabase-social-auth
 ```
 
 Then, inside your app's repo:
