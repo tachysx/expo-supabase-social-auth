@@ -1,0 +1,1 @@
+This repo is a Claude Code skill and playbook. The instructions are in `SKILL.md`, with the agent rules in `AGENTS.md`. To use it on an app, install it as a skill (see README) and work from the app's repo, not this one.

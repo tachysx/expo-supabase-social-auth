@@ -1,0 +1,13 @@
+# Merge into supabase/config.toml.
+
+[functions.delete-account]
+# The function verifies the bearer token itself (admin.auth.getUser), so the
+# gateway check is off. That keeps it working with Supabase's newer JWT
+# signing keys, which the gateway's legacy check can reject.
+verify_jwt = false
+
+# Supabase Auth providers, redirect URLs and SMTP for the hosted project are set
+# in the dashboard or with scripts/configure-supabase-auth.mjs. The
+# [auth.external.*] sections in this file only apply to `supabase start`
+# (local development); `supabase config push` would overwrite the hosted
+# settings, so don't use it for these.
