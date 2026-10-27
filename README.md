@@ -93,6 +93,7 @@ Read the docs in order. Each one ends with a **Verify** section.
 10. [Shipping builds](docs/10-shipping-builds.md)
 11. [Troubleshooting](docs/11-troubleshooting.md)
 - Appendix: [Auth emails with custom SMTP](docs/appendix-auth-emails.md)
+- Appendix: [In-app purchases: store setup traps](docs/appendix-in-app-purchases.md). Products returning empty in TestFlight, Play products, and RevenueCat service-account keys.
 
 ## What's in the repo
 
